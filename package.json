@@ -1,0 +1,18 @@
+{
+  "name": "adventure-games-for-hellocon",
+  "version": "0.0.1",
+  "description": "A presentation for HelloCon 2017 on adventure games",
+  "scripts": {
+    "start": "ws",
+    "deploy": "git subtree push --prefix html5 origin gh-pages"
+  },
+  "local-web-server": {
+    "port": 8080,
+    "directory": "html5/"
+  },
+  "author": "Mike Conley",
+  "license": "MPL",
+  "dependencies": {
+    "local-web-server": "^1.2.6"
+  }
+}
