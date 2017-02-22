@@ -1,0 +1,12 @@
+#cover > section > header > h2 {
+  top: 40%;
+}
+
+#cover > section > footer {
+  position: absolute;
+  bottom: 25%;
+}
+
+img {
+  image-rendering: -moz-crisp-edges;
+}
